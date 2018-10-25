@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝首页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .taobao {
+            width: 898px;
+            height: 282px;
+            background-color: pink;
+            margin: 70px auto;
+            position: relative;
+        }
+        a img {
+            width: 28px;
+            height: 74px;
+
+        }
+        .left {
+            left:0;
+            position: absolute;
+            bottom: 50%;
+            margin-bottom: -37px;
+        }
+        .right {
+            right: 0;
+            position: absolute;
+            bottom: 50%;
+            margin-bottom: -37px;
+        }
+        .taobao ul {
+            width: 150px;
+            height: 30px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10%;
+            position: absolute ;
+            bottom: 3%;
+            left: 50%;
+            margin-left: -75px;
+        }
+        .taobao ul li {
+            list-style: none;
+            width: 15px;
+            height: 15px;
+            background: white;
+            /*display: inline-block;*/
+            float: left;
+            margin: 6px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+        }
+        .taobao ul li:hover {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="taobao">
+    <img src="002.PNG">
+    <a href="#" class="left"><img src="left.PNG"></a>
+    <a href="#" class="right"><img src="right.PNG"></a>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+</body>
+</html>
