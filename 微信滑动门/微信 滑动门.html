@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: url(wx.jpg) repeat-x;
+        }
+        .weixin img {
+            /*height: 44px;*/
+            margin-top :14px;
+            margin-left: 180px;
+            display: inline;
+            float: left;
+        }
+        .head .nav {
+            /*margin-top: 5px;*/
+            position: absolute;
+            right: 50px;
+            top: 23px;
+        }
+        .head .nav li{
+            display: inline-block;
+            text-decoration: none;
+            /*font-weight: bold;*/
+            float: left;
+            list-style: none;
+            margin-right: 20px;
+            color: white;
+            font-size: 14px;
+            height: 33px;
+            line-height: 33px;
+            padding-left: 17px;
+            padding-right:17px ;
+        }
+        .nav a:hover {
+            display: inline-block;
+            /*height: 33px;*/
+            background : url("to.png") no-repeat;
+            /*line-height: 33px;*/
+            padding-left: 17px;
+        }
+        a:hover span {
+            display: inline-block;
+            /*height: 33px;*/
+            background : url("to.png") no-repeat right;
+            padding-right:17px ;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <a class="weixin"> <img src="wei.png" height="44"></a>
+    <ul class="nav">
+        <li><a><span>首页</span></a></li>
+        <li><a><span>帮助与反馈</span></a></li>
+        <li><a><span>公众平台</span></a></li>
+        <li><a><span>开放平台</span></a></li>
+        <li><a><span>微信支付</span></a></li>
+        <li><a><span>微信网页版</span></a></li>
+        <li><a><span>表情开放平台</span></a></li>
+        <li><a><span>微信广告</span></a></li>
+    </ul>
+</div>
+
+</body>
+</html>
